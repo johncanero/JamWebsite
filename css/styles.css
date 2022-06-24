@@ -1,0 +1,53 @@
+
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    /* White Space */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.backgroundContainer1 {
+    background-color: #E3FDFD;
+}
+
+
+
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-content: center;
+    justify-content: center;
+}
+
+    /* Add Comma */
+    .headingIntro, .forestCenter {
+        text-align: center;
+        margin: 1em;
+    }
+
+
+
+
+    /*Images*/
+    .forest {
+        height: 9em;
+    }
+    
+    
+    .topCloud {
+    margin-left: 13.5em;
+    height: 9em;
+    }
+    
+    .bottomCloud {
+    margin-left: 2em;
+    height: 9em;
+    }
+    
