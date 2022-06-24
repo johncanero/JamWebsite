@@ -88,8 +88,45 @@ p {
 }
 
         .flex-container1 .item {
-            margin: 0 0.8em;
+            margin: 0 0.95em;
         }
+
+
+
+
+    /*Images*/
+    .forest {
+        height: 11em;
+    }
+    
+    
+    .topCloud {
+    margin-left: 12em;
+    height: 9em;
+    }
+    
+    .bottomCloud {
+     margin-right: 12em;
+    height: 9em;
+    }
+
+
+    
+
+
+    .profilePicture {
+        height: 11em;
+        padding-top: 4em;
+        padding-bottom: 2em;
+    }
+    
+    
+      /* Skills - Images */
+   .architectDesigner, .studioTable, .neuralMolecule {
+    height: 10em;
+    padding-top: 1.8em;
+ }
+
 
 
 
@@ -104,17 +141,25 @@ p {
 h1 {
     font-size: 2em;
 }
+    .headingWelcome {
+        font-size: 2.5em;
+        font-family: 'Poppins', sans-serif;
+    }
+    
 h2 {
     font-size: 1.5em;
 }
-h2 {
+h3 {
     font-size: 1.17em;
 }
 
 /* Paragraph Tag */
 p {
-    font-size: 1em;
+    font-size: 1.em;
 }
+    .paragraphWelcome {
+        font-size: 1.2em;
+    }
 
 
 
@@ -132,7 +177,8 @@ p {
             margin:  0 0.8em;
         }
         .helloParagraph {
-            margin: 0, 3.5em;
+            margin: 0 3.5em;
+            padding-bottom: 1em;
         }
 
 
@@ -153,11 +199,47 @@ p {
     }
 
 
+    
+    /*Images*/
+    .forest {
+        height: 14em;
+    }
+    
+    
+    .topCloud {
+    margin-left: 26em;
+    margin-top: 1em;
+    height: 12em;
+    }
+    
+    .bottomCloud {
+    margin-right: 28em;
+    height: 12em;
+    }
+
+    
+
+
+    .profilePicture {
+        height: 12em;
+        padding-top: 5em;
+        padding-bottom: 2em;
+    }
+    
+    /* Skills - Images */
+   .architectDesigner, .studioTable, .neuralMolecule {
+    height: 11em;
+    padding-top: 2em;
+ }
+
+
 }
 
 
 
 
+
+    
     .socialMedia {
         padding-bottom: 1em;
     }
@@ -165,41 +247,6 @@ p {
 
     .forestCenter {
         text-align: center;
-    }
-
-
-
-
-
-
-    /*Images*/
-    .forest {
-        height: 11em;
-    }
-    
-    
-    .topCloud {
-    margin-left: 13.5em;
-    height: 9em;
-    }
-    
-    .bottomCloud {
-    margin-left: 2em;
-    height: 9em;
-    }
-
-
-    .profilePicture {
-        height: 11em;
-        padding-top: 4em;
-        padding-bottom: 2em;
-    }
-    
-
-    /* Skills - Images */
-   .architectDesigner, .studioTable, .neuralMolecule {
-       height: 10em;
-       padding-top: 1.8em;
     }
 
 
@@ -244,4 +291,117 @@ p {
         top:1px;
     }
     
+    
+
+ /* Desktop */
+ @media only screen 
+  and (min-device-width: 1025px) {
+
+    
+    /* Heading Tag */
+    h1 {
+        font-size: 2em;
+    }
+
+        .headingWelcome {
+            font-size: 3em;
+            font-family: 'Poppins', sans-serif;
+        }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+
+    /* Paragraph Tag */
+    p {
+        font-size: 1em;
+    }
+
+            .paragraphWelcome {
+                font-size: 1.4em;
+            }
+
+
+            .helloParagraph {
+                padding-left: 6.5em;
+                padding-right: 6.5em;
+                padding-bottom: 2em;
+            }
+
             
+    /*Images*/
+    .forest {
+        height: 17em;
+    }
+    
+    
+    .topCloud {
+    margin-left: 65em;
+    height: 16em;
+    }
+    
+    .bottomCloud {
+    margin-right: 65em;
+    margin-top: 1em;
+    height: 18em;
+    }
+
+    
+
+
+    .profilePicture {
+        height: 15em;
+        padding-top: 6em;
+        padding-bottom: 2em;
+    }
+    
+    /* Skills - Images */
+   .architectDesigner, .studioTable, .neuralMolecule {
+    height: 11.5em;
+    padding-top: 3em;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Flex Container */
+
+    .flex-container1 {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+        .headingIntro {
+            margin: 0 31em;
+        }
+        .flex-container1 .item {
+            margin:  0 30em;
+        }
+        .helloParagraph {
+            margin: 0 20em;
+        }
+
+
+         /* Grid Container */
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 20em 50em;
+        grid-template-rows: 20em;
+
+    }
+            .grid-container1 .card {
+                margin: 2em 0.5em;
+            }
+
+
+  }
