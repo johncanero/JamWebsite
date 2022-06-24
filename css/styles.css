@@ -6,8 +6,6 @@ html, body {
 }
 
 
-
-
 .backgroundContainer1 {
     background-color: #E3FDFD;
 }
@@ -45,10 +43,9 @@ p {
 .copyright {
     color: white;
 }
-    /* Add Comma */
+   
     .headingIntro {
-        margin-left: 1em;
-        margin-right: 1em;
+        margin: 0 1em;
     }
 
 
@@ -57,26 +54,22 @@ p {
     display: grid;
     grid-template-columns: 20em;
     grid-template-rows: 14em;
-
     justify-content: center;
     text-align: center;
 }
 
-.grid-container1 .card {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
+        .grid-container1 .card {
+            margin: 0 0.5em;
+        }
 
 
 
 .grid-container2 {
     display: grid;
     grid-template-columns: 9em 9em;
-
     justify-content: center;
     text-align: center;
-
-   padding-top: 1em;
+     padding-top: 1em;
 }
 
 
@@ -88,19 +81,15 @@ p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
     align-content: center;
     justify-content: center;
     text-align: center;
-
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0 2em;
 }
 
-    .flex-container1 .item {
-        margin-left: 0.8em;
-        margin-right: 0.8em;
-    }
+        .flex-container1 .item {
+            margin: 0 0.8em;
+        }
 
 
 
@@ -115,18 +104,12 @@ p {
 h1 {
     font-size: 2em;
 }
-
 h2 {
     font-size: 1.5em;
 }
-
-
-
 h2 {
     font-size: 1.17em;
 }
-
-
 
 /* Paragraph Tag */
 p {
@@ -142,26 +125,17 @@ p {
     margin-right: 2em;
 }
 
-    /* Add Comma */
-    .headingIntro {
-         margin-left: 6em;
-         margin-right: 6em;
-    }
-
-    .flex-container1 .item {
-        margin-left: 0.8em;
-        margin-right: 0.8em;
-    }
-
-    /* Classes */
-    .helloParagraph {
-        margin-left: 3.5em;
-        margin-right: 3.5em;
-    }
+        .headingIntro {
+            margin: 0 6em;
+        }
+        .flex-container1 .item {
+            margin:  0 0.8em;
+        }
+        .helloParagraph {
+            margin: 0, 3.5em;
+        }
 
 
- 
-        
     /* Grid Container */
     .grid-container1 {
         display: grid;
@@ -169,18 +143,18 @@ p {
         grid-template-rows: 28em;
 
     }
+            .grid-container1 .card {
+                margin: 2em 0.5em;
+            }
 
-    .grid-container1 .card {
-        margin: 2em 0.5em;
-    }
 
-    
     .flex-container1 .item {
-        margin-left: 3em;
-        margin-right: 3em;
+        margin: 0 3em;
     }
+
 
 }
+
 
 
 
