@@ -1,0 +1,47 @@
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite
+$ code .
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite
+$ git init
+Initialized empty Git repository in C:/Users/Caner/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite/.git/
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ git add README.md
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ git commit -m "first commit README.md"
+[main (root-commit) 74b804c] first commit README.md
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ git branch -M main
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ git remote add origin https://github.com/johncanero/JamWebsite.git
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ git push -u origin main
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 364 bytes | 364.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/johncanero/JamWebsite.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ toucn index.html
+bash: toucn: command not found
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ touch index.html
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
