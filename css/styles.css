@@ -129,6 +129,13 @@ p {
 
 
 
+    .airplaneGIF {
+        height: 10em;
+        padding: 1em 0;
+    }
+
+
+
 
 
 /* Tablet */
@@ -178,7 +185,7 @@ p {
         }
         .helloParagraph {
             margin: 0 3.5em;
-            padding-bottom: 1em;
+            padding-bottom: 1.5em;
         }
 
 
@@ -195,7 +202,7 @@ p {
 
 
     .flex-container1 .item {
-        margin: 0 3em;
+        margin: 0 6em;
     }
 
 
@@ -221,16 +228,22 @@ p {
 
 
     .profilePicture {
-        height: 12em;
+        height: 12.5em;
         padding-top: 5em;
         padding-bottom: 2em;
     }
     
     /* Skills - Images */
    .architectDesigner, .studioTable, .neuralMolecule {
-    height: 11em;
+    height: 10.5em;
     padding-top: 2em;
  }
+
+
+        .airplaneGIF {
+            height: 10.5em;
+            padding: 1em 0;
+        }
 
 
 }
@@ -266,30 +279,32 @@ p {
 
     /* Button Generator */
     .myButton {
-        box-shadow: 3px 4px 0px 0px #1564ad;
-        background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-        background-color:#79bbff;
-        border-radius: 1em;
-        border:1px solid #337bc4;
+        box-shadow: 0px 1px 0px 0px #f0f7fa;
+        background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+        background-color:#33bdef;
+        border-radius:6px;
+        border:1px solid #057fd0;
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
         font-family:Arial;
-        font-size:14px;
+        font-size:15px;
         font-weight:bold;
-        margin: 1em 1em;
-        padding:1em 2em;
+        padding:8px 20px;
         text-decoration:none;
-        text-shadow:0px 1px 0px #528ecc;
+        text-shadow:0px -1px 0px #5b6178;
+        margin: 1em 0;
     }
     .myButton:hover {
-        background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-        background-color:#378de5;
+        background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+        background-color:#019ad2;
     }
     .myButton:active {
         position:relative;
         top:1px;
     }
+    
+            
     
     
 
