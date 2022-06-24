@@ -18,6 +18,11 @@ html, body {
 }
 
 
+.backgroundContainer3 {
+    background-color: #4a97d4;
+}
+
+
 /* Flex Container */
 
 .flex-container1 {
@@ -33,6 +38,15 @@ html, body {
     margin-right: 2em;
 }
 
+    .flex-container1 .item {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+
+    .socialMedia {
+        padding-bottom: 1em;
+    }
+    
     /* Add Comma */
     .headingIntro {
         margin-left: 1em;
@@ -61,6 +75,18 @@ html, body {
         margin-right: 0.5em;
     }
 
+
+
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 6em 6em 6em;
+
+        justify-content: center;
+        text-align: center;
+
+       padding-top: 1em;
+    }
 
 
 
@@ -103,3 +129,32 @@ html, body {
     }
     
 
+
+
+    /* Button Generator */
+    .myButton {
+        box-shadow: 3px 4px 0px 0px #1564ad;
+        background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+        background-color:#79bbff;
+        border-radius: 1em;
+        border:1px solid #337bc4;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        font-weight:bold;
+        padding:10px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #528ecc;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+        background-color:#378de5;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+            
