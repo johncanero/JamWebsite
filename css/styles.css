@@ -58,6 +58,127 @@ p {
 
 
 
+    /* Add Comma */
+    .headingIntro {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+
+
+
+/* Grid Container */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 20em;
+    grid-template-rows: 14em;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-container1 .card {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 9em 9em;
+
+    justify-content: center;
+    text-align: center;
+
+   padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+
+/* Heading Tag */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+
+h2 {
+    font-size: 1.17em;
+}
+
+
+
+/* Paragraph Tag */
+p {
+    font-size: 1em;
+}
+
+
+
+/* Flex Container */
+
+.flex-container1 {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+    /* Add Comma */
+    .headingIntro {
+         margin-left: 6em;
+         margin-right: 6em;
+    }
+
+    .flex-container1 .item {
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+
+    /* Classes */
+    .helloParagraph {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+    }
+
+
+ 
+        
+    /* Grid Container */
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 20em 20em;
+        grid-template-rows: 28em;
+
+    }
+
+    .grid-container1 .card {
+        margin: 2em 0.5em;
+    }
+
+        
+
+
+
+}
 
 
 
@@ -89,46 +210,12 @@ p {
         padding-bottom: 1em;
     }
     
-    /* Add Comma */
-    .headingIntro {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
 
     .forestCenter {
         text-align: center;
     }
 
 
-
-
-/* Grid Container */
-    .grid-container1 {
-        display: grid;
-        grid-template-columns: 20em;
-        grid-template-rows: 14em;
-
-        justify-content: center;
-        text-align: center;
-    }
-
-    .grid-container1 .card {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-
-
-
-
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: 9em 9em;
-
-        justify-content: center;
-        text-align: center;
-
-       padding-top: 1em;
-    }
 
 
 
@@ -160,14 +247,14 @@ p {
     /* Skills - Images */
    .architectDesigner, .studioTable, .neuralMolecule {
        height: 10em;
-       padding-top: 2em;
+       padding-top: 1.8em;
     }
 
 
 
     .contentPlanning {
         height: 8em;
-        padding-top: 2em;
+        padding-top: 1.5em;
     }
     
 
