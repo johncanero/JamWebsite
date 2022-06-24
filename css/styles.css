@@ -15,6 +15,10 @@ html, body {
 }
 
 
+.backgroundContainer2{
+    background-color: #EFFFFD;
+}
+
 
 
 .flex-container1 {
@@ -24,11 +28,14 @@ html, body {
 
     align-content: center;
     justify-content: center;
+    text-align: center;
+
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
     /* Add Comma */
     .headingIntro {
-        text-align: center;
         margin-left: 1em;
         margin-right: 1em;
     }
@@ -36,6 +43,11 @@ html, body {
     .forestCenter {
         text-align: center;
     }
+
+
+
+
+
 
     /*Images*/
     .forest {
@@ -51,5 +63,11 @@ html, body {
     .bottomCloud {
     margin-left: 2em;
     height: 9em;
+    }
+
+
+    .profilePicture {
+        height: 12em;
+        padding-top: 4em;
     }
     
