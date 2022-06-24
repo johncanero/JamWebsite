@@ -80,7 +80,7 @@ html, body {
 
     .grid-container2 {
         display: grid;
-        grid-template-columns: 6em 6em 6em;
+        grid-template-columns: 9em 9em;
 
         justify-content: center;
         text-align: center;
@@ -129,6 +129,11 @@ html, body {
     }
     
 
+    /* Icons */
+
+    .fa-brands {
+        margin: 1em 1em;
+    }
 
 
     /* Button Generator */
