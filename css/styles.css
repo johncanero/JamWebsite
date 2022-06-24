@@ -30,6 +30,41 @@ h1 {
 }
 
 
+
+h2 {
+    color:  #4a97d4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+  }
+  
+  
+  
+h3 {
+    color: #4a97d4;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+/* Paragraph Tag */
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #022E57;
+  }
+  
+
+.copyright {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 /* Flex Container */
 
 .flex-container1 {
@@ -154,9 +189,10 @@ h1 {
         cursor:pointer;
         color:#ffffff;
         font-family:Arial;
-        font-size:17px;
+        font-size:14px;
         font-weight:bold;
-        padding:10px 30px;
+        margin: 1em 1em;
+        padding:1em 2em;
         text-decoration:none;
         text-shadow:0px 1px 0px #528ecc;
     }
