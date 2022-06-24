@@ -23,6 +23,13 @@ html, body {
 }
 
 
+/* Heading Tags */
+h1 {
+    color: #1C658C;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /* Flex Container */
 
 .flex-container1 {
