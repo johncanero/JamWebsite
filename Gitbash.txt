@@ -45,3 +45,9 @@ John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/
 $ touch index.html
 
 John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ mkdir css
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)
+$ mkdir images
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/Downloads/WEB DEVELOPMENT PROJECTS - GIT/5 - JamWebsite (main)

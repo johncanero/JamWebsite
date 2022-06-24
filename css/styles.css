@@ -27,17 +27,19 @@ html, body {
 }
 
     /* Add Comma */
-    .headingIntro, .forestCenter {
+    .headingIntro {
         text-align: center;
-        margin: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
-
-
+    .forestCenter {
+        text-align: center;
+    }
 
     /*Images*/
     .forest {
-        height: 9em;
+        height: 12em;
     }
     
     
