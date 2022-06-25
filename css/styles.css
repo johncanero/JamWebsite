@@ -201,6 +201,34 @@ p {
             }
 
 
+
+              /* Grid Row - Grid Start - Grid End */
+            .grid-c {
+               grid-column-start: 2;
+               grid-column-end: 3;
+            }
+
+            .grid-d {
+               grid-column-start: 1;
+               grid-column-end: 2;
+               grid-row-start: 2;
+               grid-row-end: 3;
+            } 
+         
+             .grid-g {
+                grid-column-start: 2;
+                grid-column-end: 3;
+             }
+
+             .grid-h {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 4;
+                grid-row-end: 5;
+             }
+            
+
+
     .flex-container1 .item {
         margin: 0 6em;
     }
@@ -245,6 +273,8 @@ p {
             padding: 1em 0;
         }
 
+    
+      
 
 }
 
@@ -348,7 +378,8 @@ p {
             
     /*Images*/
     .forest {
-        height: 17em;
+        height: 20em;
+        width: 25em;
     }
     
     
@@ -374,7 +405,7 @@ p {
     
     /* Skills - Images */
    .architectDesigner, .studioTable, .neuralMolecule {
-    height: 11.5em;
+    height: 12em;
     padding-top: 3em;
  }
 
@@ -407,16 +438,45 @@ p {
         }
 
 
-         /* Grid Container */
+    /* Grid Container */
     .grid-container1 {
         display: grid;
-        grid-template-columns: 20em 50em;
+        grid-template-columns: 35em 35em;
         grid-template-rows: 20em;
 
     }
+
+        
             .grid-container1 .card {
                 margin: 2em 0.5em;
             }
+
+
+        /* Grid Row - Grid Start - Grid End */
+        .grid-c {
+            grid-column-start: 2;
+            grid-column-end: 3;
+         }
+
+         .grid-d {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+         } 
+      
+          .grid-g {
+             grid-column-start: 2;
+             grid-column-end: 3;
+          }
+
+          .grid-h {
+             grid-column-start: 1;
+             grid-column-end: 2;
+             grid-row-start: 4;
+             grid-row-end: 5;
+          }
+
 
 
   }
