@@ -78,6 +78,13 @@ p {
      padding-top: 1em;
 }
 
+/* Mobile Only   */
+.grid-container3{
+    display: grid;
+    grid-template-columns: 3em 3em 3em 3em 3em 3em;
+    margin-left: 1.5em;
+}
+
 
 
 
@@ -287,19 +294,19 @@ p {
     color: white;
   }
   .facebook {
-    background: #3B5998;
+    background: #4a97d4;
   }
   .twitter {
-    background: #55ACEE;
+    background: #4a97d4;
   }
   .instagram {
-    background: #c417d8;
+    background: #4a97d4;
   }
   .linkedin {
-    background: #007bb5;
+    background: #4a97d4;
   }
   .youtube {
-    background: #bb0000;
+    background: #4a97d4;
   }
   .content {
     margin-left: 75px;
@@ -386,7 +393,7 @@ p {
 
     /* Paragraph Tag */
     p {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
             .paragraphWelcome {
@@ -532,19 +539,19 @@ p {
     color: white;
   }
   .facebook {
-    background: #3B5998;
+    background: #4a97d4;
   }
   .twitter {
-    background: #55ACEE;
+    background: #4a97d4;
   }
   .instagram {
-    background: #c417d8;
+    background: #4a97d4;
   }
   .linkedin {
-    background: #007bb5;
+    background: #4a97d4;
   }
   .youtube {
-    background: #bb0000;
+    background: #4a97d4;
   }
   .content {
     margin-left: 75px;
