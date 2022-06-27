@@ -296,16 +296,19 @@ p {
   .facebook {
     background: #4a97d4;
   }
+  .instagram {
+    background: #4a97d4;
+  }
   .twitter {
     background: #4a97d4;
   }
-  .instagram {
+  .youtube {
     background: #4a97d4;
   }
   .linkedin {
     background: #4a97d4;
   }
-  .youtube {
+  .medium {
     background: #4a97d4;
   }
   .content {
@@ -541,18 +544,22 @@ p {
   .facebook {
     background: #4a97d4;
   }
-  .twitter {
-    background: #4a97d4;
-  }
   .instagram {
     background: #4a97d4;
   }
-  .linkedin {
+  .twitter {
     background: #4a97d4;
   }
   .youtube {
     background: #4a97d4;
   }
+  .linkedin {
+    background: #4a97d4;
+  }
+  .medium {
+    background: #4a97d4;
+  }
+
   .content {
     margin-left: 75px;
     font-size: 30px;
