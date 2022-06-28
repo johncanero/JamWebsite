@@ -114,7 +114,7 @@ and (max-device-width: 1024px)  {
 and (min-device-width: 1025px) {
 
     h1 {
-        font-size: 2em;
+        font-size: 2.2em;
         margin-top: 1.5em;
     }
 
