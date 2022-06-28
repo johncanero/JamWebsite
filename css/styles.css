@@ -78,7 +78,8 @@ p {
 
 .grid-container2 {
     display: grid;
-    grid-template-columns: 9em 9em;
+    grid-template-columns: 8em 7.5em 8em;
+    margin-right: 0.5em;
     justify-content: center;
     text-align: center;
      padding-top: 1em;
@@ -233,11 +234,11 @@ p {
 
     .grid-container2 {
     display: grid;
-    grid-template-columns: 15em 15em;
+    grid-template-columns: 12em 11em 18em;
     justify-content: center;
     text-align: center;
      padding-top: 1em;
-     margin-right: 4em;
+     margin-right: 1em;
 }
 
     .flex-container1 .item {
@@ -528,7 +529,7 @@ p {
 
           .grid-container2 {
             display: grid;
-            grid-template-columns: 15em 15em;
+            grid-template-columns: 15em 15em 15em;
             justify-content: center;
             text-align: center;
             padding-top: 1em;

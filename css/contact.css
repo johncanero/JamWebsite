@@ -5,7 +5,10 @@ html, body {
     padding: 0;
 }
 
-
+h1 {
+    color: #1C658C;
+    margin-top: 1.5em;
+}
   
 h1 , p {
     font-family: 'Poppins', sans-serif;
@@ -59,6 +62,7 @@ h1 , p {
 
 /* Images */
 .contactPhone {
+    margin-top: 1em;
     margin-left: 1.5em;
     width: 9em;
 }
@@ -68,8 +72,12 @@ h1 , p {
 and (min-device-width: 768px) 
 and (max-device-width: 1024px)  {
 
-
     
+    h1 {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+        
     
     .contactDetails {
         margin: 0 2em;
@@ -87,13 +95,48 @@ and (max-device-width: 1024px)  {
     /* Images */
     .contactPhone {
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 2.8em;
+        margin-bottom: 1em;
         width: 10.5em;
     }
 
 
     .contactPadding {
-        padding-bottom: 3em;
+        padding-bottom: 4em;
     }
 }
 
+
+
+/* Desktop */
+@media only screen 
+and (min-device-width: 1025px) {
+
+    h1 {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    /* Images */
+    .contactPhone {
+        margin-top: 1.5em;
+        margin-left: 2em;
+        width: 12em;
+    }
+
+      
+    .contactDetails {
+        margin-left: 10em;
+        padding-top: 1.8em;
+        padding-bottom: 0.5em;
+    }
+
+
+    
+    textarea {
+        width: 102em;
+        height: 20em;
+    }
+
+
+}
