@@ -5,6 +5,18 @@ html, body {
     padding: 0;
 }
 
+h1 {
+    color: #1C658C;
+    margin-top: 1.5em;
+}
+  
+
+h1 , p {
+    font-family: 'Poppins', sans-serif;
+}
+ 
+
+
 
 .backgroundContainer1 {
     background-color: #E3FDFD;
@@ -49,8 +61,6 @@ html, body {
 }
 
 
-
-
 .footerDetails {
     color: white;
     margin: 0 0.55em;
@@ -61,3 +71,35 @@ html, body {
     .copyright {
         text-align: center;
     }
+
+
+
+    
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+
+    
+    h1 {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .hobbiesDetails {
+        margin: 0 0.55em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        padding-left: 2em;
+    }
+
+    .hobbiesPadding {
+        padding-bottom: 16.7em;
+    }
+
+    /* Images */
+    .puzzleIcon {
+        margin-top: 1em;
+        width: 11em;
+    }
+
+}
