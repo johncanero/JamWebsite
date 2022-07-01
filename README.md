@@ -2,4 +2,5 @@ This is a sample simple project of a website featuring my interests and what I l
 
 Welcome to the Project! By John Cañero 👋 
 
+
 <img src="images/desktopViewJamWebsite.png" alt="desktopViewJamWebsite.png">
