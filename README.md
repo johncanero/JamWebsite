@@ -2,5 +2,7 @@ This is a sample simple project of a website featuring my interests and what I l
 
 Welcome to the Project! By John Cañero 👋 
 
-
-<img src="images/desktopViewJamWebsite - Copy.png" alt="desktopViewJamWebsite.png">
+<img src="viewDesktop.jpg" alt="viewDesktop.jpg">
+<img src="viewTablet.jpg" alt="viewTablet.jpg">
+<img src="viewMobile.jpg" alt="viewMobile.jpg">
+<img src="viewMockup.jpg" alt="viewMockup.jpg">
