@@ -2,7 +2,7 @@ This is a sample simple project of a website featuring my interests and what I l
 
 Welcome to the Project! By John Cañero 👋 
 
-<img src="viewDesktop.jpg" alt="viewDesktop.jpg">
-<img src="viewTablet.jpg" alt="viewTablet.jpg">
-<img src="viewMobile.jpg" alt="viewMobile.jpg">
-<img src="viewMockup.jpg" alt="viewMockup.jpg">
+<img src="images/viewDesktop.jpg" alt="viewDesktop.jpg">
+<img src="images/viewTablet.jpg" alt="viewTablet.jpg">
+<img src="images/viewMobile.jpg" alt="viewMobile.jpg">
+<img src="images/viewMockup.jpg" alt="viewMockup.jpg">
