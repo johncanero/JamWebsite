@@ -470,8 +470,8 @@ p {
 
   /*Images*/
   .forestIcon {
-    height: 20em;
-    width: 25em;
+    height: 18em;
+    width: 21em;
   }
 
   .topCloudIcon {
@@ -486,7 +486,7 @@ p {
   }
 
   .profilePicture {
-    height: 15em;
+    height: 22em;
     padding-top: 6em;
     padding-bottom: 2em;
   }
@@ -495,9 +495,17 @@ p {
   .architectDesignerIcon,
   .studioTableIcon,
   .neuralMoleculeIcon {
-    height: 12em;
+    height: 14em;
     padding-top: 3em;
+    margin-bottom: 1em;
   }
+
+
+  .contentPlanningIcon {
+    height: 10em;
+    padding-top: 1.5em;
+  }
+
 
   /* Flex Container */
 
@@ -615,6 +623,11 @@ p {
 
   .socialMediaPadding {
     display: none;
+  }
+
+
+  .myButton {
+    font-size: 14.5px;
   }
 
 
