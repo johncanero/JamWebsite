@@ -1,8 +1,27 @@
-html, body {
-    font-family: 'Montserrat', sans-serif;
-    /* White Space */
-    margin: 0;
-    padding: 0;
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html {
+    /* footer support */
+    position: relative;
+    min-height: 100%;
+  }
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+    /* footer support */
+    margin-bottom: 50px;
+
+    background-color: #effffd;
 }
 
 h1 {
@@ -15,129 +34,109 @@ h1 , p {
 }
  
 
+
+/* Background Colors */
 .backgroundContainer1 {
-    background-color: #E3FDFD;
-}
-.backgroundContainer2{
-    background-color: #EFFFFD;
-}
-.backgroundContainer3 {
-    background-color: #4a97d4;
-}
+    background-color: #e3fdfd;
+  }
+  .backgroundContainer2 {
+    background-color: #effffd;
+  }
 
 
-
-/* Flex Container */
-
+/* Flex-Container */
 .flex-container1 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 2em;
-}
+    align-items: center;
+  }
+  
+
+  /* Padding */
+.paragraphPadding {
+    margin: 1em 2em;
+    text-align: justify;
+  }
+  
+  .paragraphPadding2 {
+    margin: 0em 2em;
+    padding: 1em 0;
+    text-align: left;
+  }
+  
+  .paragraphPadding3 {
+    margin: 0em 2em;
+    text-align: left;
+  }
     
-    
-    .contactDetails {
-        margin: 0 0.55em;
-        padding-top: 1em;
-        padding-bottom: 0.5em;
-    }
-
-
-    .footerDetails {
-        color: white;
-        margin: 0 0.55em;
-        padding-top: 0.2em;
-        padding-bottom: 0.2em;
-    }
-
-
-            .copyright {
-                text-align: center;
-            }
-
-
-/* Images */
-.contactPhone {
+  
+/* Contents */
+.contactPadding {
     margin-top: 1em;
-    margin-left: 1.5em;
+  }
+
+
+ 
+/* Images */
+.phoneContactLogo {
+    margin-top: 2.5em;
     width: 9em;
 }
 
 
-/* Tablet */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px)  {
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #2fa4ff;
+    color: white;
+  }
+  
 
-    
-    h1 {
-        font-size: 2em;
-        margin-top: 1.5em;
-    }
-        
-    
-    .contactDetails {
-        margin: 0 2em;
-        padding-top: 1em;
-        padding-bottom: 0.5em;
-    }
-
-    textarea {
-        width: 52em;
-        height: 16em;
-    }
-
-
-
-    /* Images */
-    .contactPhone {
-        margin-top: 1em;
-        margin-left: 2.8em;
-        margin-bottom: 1em;
-        width: 10.5em;
-    }
-
-
-    .contactPadding {
-        padding-bottom: 4em;
-    }
+   /* Button Generator */
+   .myButton {
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:linear-gradient(to bottom,  5%, #019ad2 100%);
+    background-color:#33bdef;
+    border-radius:6px;
+    border:1px solid #057fd0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:8px 15px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;
+    margin: 2em 0;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color:#019ad2;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
 }
 
 
+/* Input */
+input[type="text"] {
+  width: 100%;
+  margin: 3px 0;
+  box-sizing: border-box;
+}
 
-/* Desktop */
-@media only screen 
-and (min-device-width: 1025px) {
-
-    h1 {
-        font-size: 2.2em;
-        margin-top: 1.5em;
-    }
-
-    /* Images */
-    .contactPhone {
-        margin-top: 1.5em;
-        margin-left: 2em;
-        width: 12em;
-    }
-
-      
-    .contactDetails {
-        margin-left: 10em;
-        padding-top: 1.8em;
-        padding-bottom: 0.5em;
-    }
-
-
-    
-    textarea {
-        width: 102em;
-        height: 20em;
-    }
-
-
+input[type="email"] {
+  width: 100%;
+  margin: 2px 0;
+  box-sizing: border-box;
 }
