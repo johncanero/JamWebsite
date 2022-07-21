@@ -161,6 +161,41 @@ input[type="email"] {
   }
 }
 
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  /* Padding */
+  .paragraphPadding {
+    margin: 0 10em;
+    padding: 1.5em 0 1em 0;
+  }
+
+  .paragraphPadding2,
+  .paragraphPadding3 {
+    margin: 0 10em;
+    padding: 1em 0;
+  }
+
+  .messagePadding {
+    padding-right: 75%;
+    padding-bottom: 5%;
+  }
+
+  input[type="text"] {
+    width: 41%;
+    margin: 6px 0;
+    box-sizing: border-box;
+  }
+
+  input[type="email"] {
+    width: 41.3%;
+    margin: 6px 0;
+    box-sizing: border-box;
+  }
+}
+
+
+
 /* Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Images */

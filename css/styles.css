@@ -463,6 +463,10 @@ p {
     text-align: justify;
   }
 
+  .desktopPadding {
+    margin-bottom: 2em;
+  }
+
     .paragraphPadding2 {
         margin: 1em 2em 0 2em;
         text-align: justify;

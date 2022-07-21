@@ -151,6 +151,21 @@ body {
   }
 }
 
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  /* Padding */
+  .paragraphPadding {
+    margin: 0 10em;
+    padding: 1.5em 0 1em 0;
+  }
+
+  .paragraphPadding2,
+  .paragraphPadding3 {
+    margin: 0 10em;
+    padding: 1em 0;
+  }
+}
+
 /* FONT STYLES */
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
