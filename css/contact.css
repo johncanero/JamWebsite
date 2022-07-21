@@ -140,3 +140,32 @@ input[type="email"] {
   margin: 2px 0;
   box-sizing: border-box;
 }
+
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Padding */
+  .paragraphPadding {
+    margin: 0em 4em;
+    padding: 1em 0;
+  }
+
+  .paragraphPadding2,
+  .paragraphPadding3 {
+    margin: 0 4em;
+    padding: 1em 0;
+  }
+
+  .messagePadding {
+    padding-right: 49%;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Images */
+  .phoneContactLogo {
+    margin: 4em 0 1em 0;
+    width: 10em;
+  }
+}
