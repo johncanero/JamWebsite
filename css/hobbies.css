@@ -15,10 +15,10 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-  
-    /* footer support */
-    margin-bottom: 40px;
-    background-color: #effffd;
+    /* Footer Guide */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
 
@@ -30,6 +30,14 @@ body {
     background-color: #effffd;
   }
   
+
+  
+
+/* Footer Guide */
+main {
+  flex-grow: 1;
+}
+
 
 
 
@@ -72,6 +80,14 @@ body {
     padding-bottom: 0.8em;
   }
 
+  
+.goBackPadding {
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+
+
+
 /* Images */
 .puzzleIcon {
     width: 9em;
@@ -95,7 +111,7 @@ body {
     justify-content: center;
     gap: 10px;
     width: 100%;
-    padding: 0.5em;
+    padding: 0.7em;
     background-color: #2fa4ff;
     color: white;
   }
@@ -149,6 +165,14 @@ body {
     margin: 4em 0 2em 0;
     width: 10em;
   }
+
+  
+.goBackPadding {
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+
+
 }
 
 /* Desktop */
@@ -164,6 +188,14 @@ body {
     margin: 0 10em;
     padding: 1em 0;
   }
+
+  
+.goBackPadding {
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+
+
 }
 
 /* FONT STYLES */
