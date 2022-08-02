@@ -99,7 +99,7 @@ h1 , p {
 
 /* Footer */
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     display: flex;
@@ -107,7 +107,7 @@ h1 , p {
     justify-content: center;
     gap: 10px;
     width: 100%;
-    padding: 0.7em;
+    padding: 1em;
     background-color: #2fa4ff;
     color: white;
   }
