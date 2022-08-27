@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://johncanero.github.io/JamWebsite/" target="_blank">
-    <img alt="favicon.ico" height="100" src="/images/favicon.ico"/>
+    <img alt="favicon.ico" height="100" src="/images/tree.png"/>
   </a>
 </div>
 
